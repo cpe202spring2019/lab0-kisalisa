@@ -4,6 +4,7 @@ from planets import *
 
 class Test_planets(unittest.TestCase):
 
+
     def test_01(self):
         sys.stdin = io.StringIO("136")
         sys.stdout = student_output = io.StringIO()        
